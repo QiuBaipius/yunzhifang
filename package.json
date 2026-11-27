@@ -1,0 +1,24 @@
+{
+  "name": "ycx-simlab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "云乘见 · 算法仿真系统：随机路网 + 三视角检验派单算法（独立成果，可单独运行）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "sim": "node scripts/simlab.mjs",
+    "test:sim": "node test/smoke.mjs && node test/day.mjs && node test/runner.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "oxlint": "^1.81.0",
+    "vite": "^8.0.0"
+  }
+}

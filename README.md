@@ -12,6 +12,14 @@
 
 ## 快速开始
 
+### 方式一：GitHub Codespaces（推荐，零配置）
+
+1. 点击仓库右上角 **Code → Codespaces → Create codespace on main**
+2. 等待环境自动加载，完成后即可在新窗口弹出项目
+3. 如耐心等待至全部加载完成后网址依旧未能自动弹出，大概率是窗口弹出被您的浏览器阻止。点击下方的 **端口（Ports）**，用浏览器打开"转发地址"，即可打开项目
+
+### 方式二：本地运行
+
 需要 Node.js 20+。
 
 ```bash
@@ -27,8 +35,6 @@ npm run dev        # 开发服务器，默认 5174
 npm run sim
 npm run test:sim
 ```
-
-GitHub Codespaces 已配置好环境与端口转发，打开仓库即可运行。
 
 ## 许可
 
